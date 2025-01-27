@@ -6,3 +6,5 @@ some of the inp file for AdK with force, have 2e8 MD steps
 some of the inp file for calculating the MFPT, have less MD steps
 # turnover rate
 the turnover rate value got from simulation, the detail see README.md in turnover_rate/
+# cafemol-ake-7_rmsd.tar.gz
+the modified cafemol version
