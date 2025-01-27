@@ -35,7 +35,7 @@ The average time calculated from trajectories
 
 Trajectories obtained from simulations
 
-### MFPT_AdK_***
+### trj/MFPT_AdK_***
 
 Short trajectories for MFPT calculations
 
