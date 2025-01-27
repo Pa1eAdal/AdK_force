@@ -31,7 +31,7 @@ The average time calculated from trajectories
 'c2o' represents the time required for product release
 'all' represents the time interval between two adjacent cycles
 
-## trj
+## Trajectories
 
 Trajectories obtained from simulations
 
