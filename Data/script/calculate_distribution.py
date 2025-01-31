@@ -5,6 +5,13 @@
 """
 input: .data file from ts2data
 output:.npz file include o2c time and c2o time
+the .data file's every line have below information
+# itime,Rg,Etot,chi1,chi2,chi3,Qa,Qb,rmsda,rmsdb,           10 1-10
+# ebind1,ebind2,ebind3,ebind4,ebind5,ebind6,ebind7,         7  11-17
+# sasa1,sasa2,sasa3,sasa4,sasa5,sasa6,sasa7,                7  18-24
+# istate1,istate2,istate3,istate4,istate5,istate6,istate7,  7  25-31
+# iake,iconform,ichem,iake2,iake6,iatp,iamp                 7  32-38
+# 10+7+7+7+7=38, istate: 24-30
 """
 
 import mdtraj as md
