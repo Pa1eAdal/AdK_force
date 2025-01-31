@@ -44,5 +44,13 @@ Short trajectories for MFPT calculations
 
 ### rakesi_Pc028_m0300_f0
 
-Trajecories without force applied
+Trajecories without force applied with $P_{close} \approx 0.28$ (wild-type)
+
+### rakesi_Pc099_m0300_f0
+
+Trajecories without force applied with $P_{close} \approx 0.99$ (extremely closed)
+
+### rakesi_Pc028_m0300_f0
+
+Trajecories without force applied with $P_{close} \approx 0.01$ (extremely open)
 
