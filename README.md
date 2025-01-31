@@ -31,6 +31,9 @@ The average time calculated from trajectories
 'c2o' represents the time required for product release
 'all' represents the time interval between two adjacent cycles
 
+### script
+The scripts used to analyze the data and plot the figures.
+
 ## Trajectories
 
 Trajectories obtained from simulations
@@ -39,6 +42,3 @@ Trajectories obtained from simulations
 
 Short trajectories for MFPT calculations
 
-## cafemol-ake-7_rmsd.tar.gz
-
-The modified version of CafeMol
