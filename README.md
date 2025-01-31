@@ -38,7 +38,11 @@ The scripts used to analyze the data and plot the figures.
 
 Trajectories obtained from simulations
 
-### trj/MFPT_AdK_***
+### MFPT_AdK_Pc028_m0300_s148_f10
 
 Short trajectories for MFPT calculations
+
+### rakesi_Pc028_m0300_f0
+
+Trajecories without force applied
 
