@@ -54,3 +54,6 @@ Trajecories without force applied with $P_{close} \approx 0.99$ (extremely close
 
 Trajecories without force applied with $P_{close} \approx 0.01$ (extremely open)
 
+### akesi_Pc028_m0300_f10
+
+Trajecories with 10pN force applied with $P_{close} \approx 0.28$ (wild-type)
