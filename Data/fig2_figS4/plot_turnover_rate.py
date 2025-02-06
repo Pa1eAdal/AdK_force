@@ -28,8 +28,8 @@ else:
 
 task_name = "turnover_rate" + "_" + control
 if control == "force_c":
-    dv_list = [14, 16]
-    # dv_list = [0]
+    # dv_list = [14, 16]
+    dv_list = [0]
 elif control == "dna_c":
     dv_list = [0, 14]
 atp_list = [1000]
@@ -273,8 +273,6 @@ if control == "force_c":
             b_y = []
             
             # Write background header
-            data_file.write(f"\n# Background data\n")
-            
             for co in b_conc_list:
                 b_c = str(co).zfill(4)
                 if co == 2000:
@@ -302,7 +300,7 @@ if control == "force_c":
                             turnover_rate = float(values[-1])
                             tr_list.append(turnover_rate)
                             # Write background data with cycle number
-                            data_file.write(f"n{len(tr_list):03d}\t{turnover_rate}\n")
+                            data_file.write(f"n{len(tr_list):03d}\t{turnover_rate * 2e5 / 112 / 2}\n")
                     b_y.append(np.mean(tr_list))
 
             if dv == 17:

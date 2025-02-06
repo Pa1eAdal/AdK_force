@@ -15,8 +15,7 @@ import method
 import enzyme_setting
 from time import localtime
 
-control = "kof"
-dir_spe = "3TMCC_DDCC_others_cc/"
+control = "force_c"
 cut = 'rmsd'
 
 if "force" in control:
@@ -27,7 +26,7 @@ else:
     project_name = "akesi"
 
 adk = enzyme_setting.Enzyme_adk(cut=cut, control=control)
-dv_list = [0, 14]
+dv_list = [14, 16]
 conc_list = [30, 50, 100, 200, 300, 500, 1000, 2000, 3000]
 site = [22, 42, 55, 73, 148, 177]
 site_list = [148]
@@ -132,13 +131,6 @@ pclosedict = dict(zip(dvlist, pcloselist))
 
 lod_dis_list = [3, 2, 1]
 lod_dis_dict = dict(zip(lod_list, lod_dis_list))
-
-if dir_spe == "3TMCC_cc_o1/":
-    cycle = [0, 1, 2]
-elif dir_spe == "3TMCC_DDCC_others_cc/":
-    cycle = [0, 1, 2]
-    # cycle_end = [1, 2, 0]
-    # print("rua")
 
 cycle_end = [cycle[i + 1] for i in range(len(cycle) - 1)]
 cycle_end.append(cycle[0])
