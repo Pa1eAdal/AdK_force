@@ -3,17 +3,11 @@
 This repository contains molecular dynamics simulation trajectories and analyzed data.
 
 ## Data
-### inp
 
-The input files for CafeMol
+Each directory contains two versions of data files:
 
-#### AdK_force
-
-Input files for AdK with force simulation, containing 2E8 MD steps
-
-#### MFPT_c2o\MFPT_o2c
-
-Input files for MFPT calculations, containing fewer MD steps
+1. Raw data files with names starting with 'raw_' and ending with '.dat'
+2. Readable data files with names starting with 'readable_' and ending with '.md'
 
 ### turnover rate
 
@@ -33,6 +27,18 @@ The average time calculated from trajectories
 
 ### script
 The scripts used to analyze the data and plot the figures.
+
+## inp
+
+The input files for CafeMol
+
+### AdK_force
+
+Input files for AdK with force simulation, containing 2E8 MD steps
+
+### MFPT_c2o\MFPT_o2c
+
+Input files for MFPT calculations, containing fewer MD steps
 
 ## Trajectories
 
