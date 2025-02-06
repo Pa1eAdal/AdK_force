@@ -4,14 +4,18 @@ This repository contains molecular dynamics simulation trajectories and analyzed
 
 ## Data
 
-Each directory contains two versions of data files:
+Each subdirectory contains two versions of data files and corresponding plotting scripts:
 
 1. Raw data files with names starting with 'raw_' and ending with '.dat'
 2. Readable data files with names starting with 'readable_' and ending with '.md'
 
+please refer to the readable data.
+
+The dataset comprises three types of data:
+
 ### turnover rate
 
-Turnover rate values obtained from simulations. For details, please refer to README.md in turnover_rate/
+Turnover rate values obtained from simulations.
 
 ### MFPT
 The Mean First Passage Time (MFPT) calculated from short trajectories.
@@ -24,9 +28,10 @@ The average time calculated from trajectories
 'o2c' represents the time required to form the catalytically competent state
 'c2o' represents the time required for product release
 'all' represents the time interval between two adjacent cycles
+ 
 
 ### script
-The scripts used to analyze the data and plot the figures.
+Analysis scripts used for data processing.
 
 ## inp
 
