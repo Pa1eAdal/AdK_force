@@ -15,19 +15,22 @@ The dataset comprises three types of data:
 
 ### turnover rate
 
-Turnover rate values obtained from simulations.
+Turnover rate values obtained from simulations 
+The unit is $\rm{ms^{-1}}$
 
 ### MFPT
 The Mean First Passage Time (MFPT) calculated from short trajectories.
 'o2c' represents trajectories starting from the open state with no ligand binding
 'c2o' represents trajectories starting from the closed state with 2 ADP molecules bound
 'phy' represents analysis focused only on conformational changes
+The unit is ms
 
 ### average_time
 The average time calculated from trajectories
 'o2c' represents the time required to form the catalytically competent state
 'c2o' represents the time required for product release
 'all' represents the time interval between two adjacent cycles
+The unit is ms
  
 
 ### script
