@@ -71,3 +71,7 @@ Trajecories without force applied with $P_{close} \approx 0.01$ (extremely open)
 ### akesi_Pc028_m0300_f10
 
 Trajecories with 10pN force applied with $P_{close} \approx 0.28$ (wild-type)
+
+### akesi_dna_Pc028_m0300_bp70
+
+Trajecories with 70bp DNA applied with $P_{close} \approx 0.28$ (wild-type)
